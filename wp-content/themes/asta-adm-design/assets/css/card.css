@@ -1,0 +1,84 @@
+.menu{
+    border-right-color: #32a1ce;
+    
+  }
+  
+  .cardmenu {
+    overflow: hidden;
+  }
+  
+  .my-aii-article-menu a {
+    display: block;
+    margin-top: 20px;
+    color: black;
+    border: 1px;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid transparent;
+  }
+  
+  .my-aii-article-menu a.active {
+    border-right: 3px solid #428bca;
+  }
+  
+  
+  @media only screen and (min-width : 1200px) {
+    /* your desktop css */
+    .col .my-aii-bgwhite {
+        background-color: white;
+        /* height: 100%; */
+    }
+    body {
+        background-color: #f4f7fc;
+    }
+  }
+  
+  
+  @media(min-width:576px){
+    .my-aii-bgwhite {
+        background-color: #f4f7fc;
+        /* height: 100%; */
+    }
+    body {
+        background-color: white;
+    }
+  }
+  @media(min-width:768px){
+    .my-aii-bgwhite {
+    background-color: white;
+    /* height: 100%; */
+    }
+    body {
+        background-color: #f4f7fc;
+    }
+  }
+  /* .menu{
+      border-right-color: #32a1ce;
+      
+    } */
+  .cardmenu {
+      overflow: hidden;
+    }
+    
+    .col-md-5 a {
+      display: block;
+      margin-top: 20px;
+      color: black;
+      border: 1px;
+      padding: 14px 16px;
+      text-decoration: none;
+      border-right: 1px solid transparent;
+    }
+    
+    /* .cardmenu a:hover {
+      border-right: 2px solid #428bca;
+    } */
+    
+    .col-md-5 a.active {
+      border-right: 3px solid #428bca;
+    }
+    
+    
+  
+   
+  

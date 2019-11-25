@@ -1,0 +1,1696 @@
+  html,body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .my-aii-container {
+    height: 100%;
+    width: 100%;
+  }
+  .d-flex .d-row {
+    height: 100%;
+  }
+  
+  .my-aii-bgwhite {
+    background-color: #fff;
+  }
+  
+  .my-aii-article-text-margin {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .tab{
+    margin-bottom: 10%;
+  }
+  
+  
+  @media only screen and (min-width : 1200px) {
+      .title-menu {
+        font-size: 3vw;
+      }
+      body {
+          background-color: #f4f7fc;
+          overflow: hidden;
+      }
+      .my-aii-overflow {
+        overflow: auto;
+      }
+      .my-aii-content {
+        height:180px;
+        height: 100%;
+        width: 85%;
+        float: right;
+      }
+      .pagination-rank {
+        margin-left:38%;
+      }
+      .my-aii-about {
+        background-image:url(/image/asta.png);
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 85%;
+        float: right;
+        background-size:100% 100%;
+      }
+          /* home */
+      .menu-topnav {
+        width: 100%;
+        height: 18%;
+        background-color: #f4f7fc;
+        margin-bottom: 3%;
+      }
+      .home-slide {
+        height: 85%;
+        padding-right: 2%;
+        background-color: #f4f7fc;
+        scroll-behavior: smooth;
+      }
+      .home-content {
+        height: 100%;
+        width: 78%;
+        float: left;
+      }
+      .my-aii-forum {
+        background-color: #eaeef5;
+        width: 22%;
+        height: 100%;
+        float: left;
+      }
+      .btn-joincomunity {
+        font-size:1vw !important;
+      }
+      .img_card {
+        width:100% !important;
+        height:100% !important;
+      }
+      /* end home */
+      /* guide */
+      .image-guide{
+        width: 20%;
+        height: 20%;
+        padding-left: 3%;
+        }
+      /* end guide */
+  
+      /* exchange */
+      .my-aii-exchange {
+        border-radius: 30px;
+        width: 80%;
+        margin-left: auto; 
+        margin-right:auto;
+        font-size: 15px;
+      }
+      /* end exchange */
+  
+      /* bagian member */
+      .txt-googlesans-member{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+      .member-info {
+        margin-top: 20px;
+      }
+      .input-member {
+        width: 48%;
+      }
+      .date-member {
+        width: 10%;
+      }
+      .img-member {
+        text-align: none;
+      }
+      .month-member {
+        width: 30%;
+      }
+      .year-member {
+        width: 20%;
+      }
+      /* end member */
+  
+      .bg-content-home {
+        background-color: #f4f7fc;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .my-aii-login {
+        width: 80%;
+      }
+
+
+      /* menu top home */
+      #menu-top-nav-home-1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #menu-top-nav-home-1 li {
+        float: left;
+      }
+ 
+      #menu-top-nav-home-1 li a {
+        display: block;
+        /* color: white; */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Sidebar menu */
+      .sidebar .nav-link a{
+        padding-left:30px;
+        font-size: px;
+        color: #b0b0b0;
+      }
+      .sidebar {
+        box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+        background-color: white;
+        height: 100%;
+        width: 15%;
+        float: left;
+      }
+      /* end sidebar menu */
+
+      /* Carousel Card */
+      .card-carousel-home {
+        height:400px;
+      }
+      .img_carousel_home {
+        height:250px;
+      }
+      /* End Carousel Card */
+
+      /* Login-home */
+      .memberLogin-title {
+        margin-bottom:50%;
+      }
+      /* end login home */
+
+      /* topnav home */
+      .topnav {
+        overflow: hidden;
+      }
+      
+      .topnav a {
+        float: left;
+        display: block;
+        color: #adaeaf;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        border-bottom: 1px solid transparent;
+      }
+      
+      .topnav a:hover {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+      /* for pc */
+      #menu-top-nav-home-1 .active a {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+  
+      /* for mobile */
+      #menu-top-nav-home .active a {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+      .img-login {
+        width:10vw;
+        height:19vh;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      /* end topnav home */
+
+      /* all game */
+      .all_card_game {
+        width:18rem;
+        margin-bottom:5%;
+      }
+
+      .menu-topnav-allgame {
+        width:100%;
+        height:50px;
+      }
+      .bg-content-all-game {
+        background-color: #f4f7fc;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+      }
+      .card-center {
+        padding-left:0;
+        padding-right:0;
+      }
+      /* end all game */
+ 
+ 
+      /* #menu-top-nav-home-1 li a.active {
+          float: right;
+      } */
+ 
+      /* .active {
+        background-color: #4CAF50;
+      } */
+      /* end menu top home */
+  }
+
+  
+  @media(min-width:320px){
+      .title-menu {
+        font-size: 6vw;
+      }
+
+      body {
+          background-color: #f4f7fc;
+          overflow: auto;
+          padding-left:2%;
+          margin-right:5%;
+          padding-right:2%;
+      }
+      
+      /* home */
+      .bg-content-home {
+        background-color: #ffffff;
+        overflow: auto;
+        width: 100%;
+        height: 60%;
+        /* border: 1px solid black; */
+      }
+      .pagination-rank {
+        margin-left:5%;
+      }
+      .home-content {
+        height: auto;
+        width: 100%;
+      }
+      .menu-topnav {
+        width: 100%;
+        height: 25%;    
+        background-color: #ffffff;
+        /* position: -webkit-sticky;
+        position: fixed;
+        top: 0;  */
+      }
+      
+      .home-slide {
+        width: 100%;
+        overflow: auto;
+      }
+      .my-aii-forum {
+        background-color: #f4f7fc;
+        width: 100%;
+      }
+      .btn-joincomunity {
+        font-size:3vw !important;
+      }
+      .img_card {
+        width:90% !important;
+        height:90% !important;
+      }
+      /* endhome */
+      .my-aii-content {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        /* overflow: auto; */
+      }
+      .my-aii-about {
+        background-image:url('wordpress/assets/images/asta.png');
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:100% 100%;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        /* overflow: auto; */
+      }
+      /* guide */
+      .image-guide{
+        width: 50%;
+        height: 50%;
+        padding-left: 3%;
+        }
+      /* end guide */
+      /* exchange */
+      .my-aii-exchange {
+        border-radius: 50px;
+        font-size: 5px;
+        width: 100%;
+      }
+      /* end exchange */
+          
+      /* bagian member */
+      .txt-googlesans-member{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        color: #a7a7a8;
+      }
+      .member-info {
+        margin-top: none;
+      }
+      .input-member {
+        width: 95%;
+      }
+      .img-member {
+        text-align: center;
+      }
+      .date-member {
+        width: 15%;
+      }
+      .month-member {
+        width: 45%;
+        margin-left: 3%;
+        margin-right: 3%;
+      }
+      .year-member {
+        width: 30%;
+      }
+      /* end member */
+      
+      .search {
+        color: white;
+        box-shadow: 4px 4px 8px #e9e9ee;
+      }
+
+
+      /* menu top home */
+      #menu-top-nav-home {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #menu-top-nav-home li {
+        float: left;
+      }
+ 
+      #menu-top-nav-home li a {
+        display: block;
+        /* color: white; */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+ 
+      .sidebar .nav-link.active {
+        color: #007bff;
+        border-left: 5px solid #1990ea;
+        padding-left:10px;
+      }
+
+      /* Carousel Card */
+      .card-carousel-home {
+        height:300px;
+      }
+      .img_carousel_home{
+        margin:0 auto;
+        height:130px;
+        width:140px;
+      }
+      /* End Carousel Card */
+
+      /* Login-home */
+      .memberLogin-title {
+        margin-bottom:50%;
+      }
+      /* end login home */
+
+      /* topnav home */
+      .topnav {
+        overflow: hidden;
+      }
+      
+      .topnav a {
+        float: left;
+        display: block;
+        color: #adaeaf;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 700;
+        border-bottom: 1px solid transparent;
+      }
+      
+      .topnav a:hover {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+      /* for pc */
+      #menu-top-nav-home-1 .active a {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+  
+      /* for mobile */
+      #menu-top-nav-home .active a {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+      /* end topnav home */
+
+      /* all game */
+      .all_card_game {
+        width:9rem;
+        margin-bottom: 5%;
+      }
+      .menu-topnav-allgame {
+        width:100%;
+        height:20%;
+      }
+      .bg-content-all-game {
+        background-color: #ffffff;
+        overflow: auto;
+        width: 100%;
+        height: 80%;
+        /* border:1px solid black; */
+      }
+      .card-center {
+        padding-left:0;
+        padding-right:0;
+      }
+      /* end all game */
+      /* #menu-top-nav-home-1 li a.active {
+          float: right;
+      } */
+ 
+      /* .active {
+        background-color: #4CAF50;
+      } */
+      /* end menu top home */
+  }
+  @media(min-width:600px){
+      .title-menu {
+        font-size: 5vw;
+      }
+
+      body {
+          background-color: #f4f7fc;
+          overflow: auto;
+      }
+      
+      /* home */
+      .bg-content-home {
+        background-color: #ffffff;
+        overflow: auto;
+        width: 100%;
+        height: 60%;
+        /* border: 1px solid black; */
+      }
+      .pagination-rank {
+        margin-left:5%;
+      }
+      .home-content {
+        height: auto;
+        width: 100%;
+      }
+      .menu-topnav {
+        width: 100%;
+        height: 33%;    
+        background-color: #ffffff;
+        /* position: -webkit-sticky;
+        position: fixed;
+        top: 0;  */
+      }
+      
+      .home-slide {
+        width: 100%;
+        overflow: auto;
+      }
+      .my-aii-forum {
+        background-color: #f4f7fc;
+        width: 100%;
+      }
+      .btn-joincomunity {
+        font-size:2vw !important;
+      }
+      .img_card {
+        width:90% !important;
+        height:90% !important;
+      }
+      /* endhome */
+      .my-aii-content {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        /* overflow: auto; */
+      }
+      .my-aii-about {
+        background-image:url('wordpress/assets/images/asta.png');
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:100% 100%;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        /* overflow: auto; */
+      }
+      /* guide */
+      .image-guide{
+        width: 50%;
+        height: 50%;
+        padding-left: 3%;
+        }
+      /* end guide */
+      /* exchange */
+      .my-aii-exchange {
+        border-radius: 50px;
+        font-size: 5px;
+        width: 100%;
+      }
+      /* end exchange */
+          
+      /* bagian member */
+      .txt-googlesans-member{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        color: #a7a7a8;
+      }
+      .member-info {
+        margin-top: none;
+      }
+      .input-member {
+        width: 95%;
+      }
+      .img-member {
+        text-align: center;
+      }
+      .date-member {
+        width: 15%;
+      }
+      .month-member {
+        width: 45%;
+        margin-left: 3%;
+        margin-right: 3%;
+      }
+      .year-member {
+        width: 30%;
+      }
+      /* end member */
+      
+      .search {
+        color: white;
+        box-shadow: 4px 4px 8px #e9e9ee;
+      }
+
+
+      /* menu top home */
+      #menu-top-nav-home {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #menu-top-nav-home li {
+        float: left;
+      }
+ 
+      #menu-top-nav-home li a {
+        display: block;
+        /* color: white; */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Carousel Card */
+      .card-carousel-home {
+        height:400px;
+      }
+      .img_carousel_home {
+        margin:0 auto;
+        height:200px;
+        width:200px;
+      }
+      /* End Carousel Card */
+
+      /* Login-home */
+      .memberLogin-title {
+        margin-bottom:50%;
+      }
+      /* end login home */
+      /* topnav home */
+      
+      .topnav {
+        overflow: hidden;
+      }
+      
+      .topnav a {
+        float: left;
+        display: block;
+        color: #adaeaf;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 700;
+        border-bottom: 1px solid transparent;
+      }
+      
+      .topnav a:hover {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+      /* for pc */
+      #menu-top-nav-home-1 .active a {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+  
+      /* for mobile */
+      #menu-top-nav-home .active a {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+      /* end topnav home */
+
+      /* all game */
+      .all_card_game {
+        width:10rem;
+        margin-bottom: 5%;
+      }
+      .menu-topnav-allgame {
+        width:100%;
+        height:20%;
+      }
+      .bg-content-all-game {
+        background-color: #ffffff;
+        overflow: auto;
+        width: 100%;
+        height: 80%;
+      }
+      .card-center {
+        padding-left:0;
+        padding-right:0;
+      }
+      /* end all game */
+ 
+      /* #menu-top-nav-home-1 li a.active {
+          float: right;
+      } */
+ 
+      /* .active {
+        background-color: #4CAF50;
+      } */
+      /* end menu top home */
+  }
+
+
+  
+  @media(min-width:768px){
+      .title-menu {
+        font-size: 4.5vw;
+      }
+      body {
+      background-color: #f4f7fc;
+      overflow: hidden;
+      padding-left:0;
+      margin-right:0;
+      padding-right:0;
+      }
+      /*home */
+      .pagination-rank {
+        margin-left:38%;
+      }
+      @media(min-height:250px){
+        .menu-topnav {
+          width: 100%;
+          height: 100%;
+          background-color: #f4f7fc;
+        }
+        .img-login {
+          width:10vw;
+          height:19vh;
+          margin-left:auto;
+          margin-right:auto;
+        }
+      }
+      @media(min-height:100px){
+        .menu-topnav {
+          width: 100%;
+          height: 50%;
+          background-color: #f4f7fc;
+        }
+        .img-login {
+          width:6vw;
+          height:12vh;
+          margin-left:auto;
+          margin-right:auto;
+        }
+      }
+      @media(min-height:480px){
+        .menu-topnav {
+          width: 100%;
+          height: 30%;
+          background-color: #f4f7fc;
+        }
+        .img-login {
+          width:6vw;
+          height:12vh;
+          margin-left:auto;
+          margin-top:5%;
+          margin-right:auto;
+        }
+      }
+      @media(min-height:768px){
+        .menu-topnav {
+          width: 100%;
+          height: 20%;
+          background-color: #f4f7fc;
+        }
+        .img-login {
+          width:12vw;
+          height:12vh;
+          margin-left:auto;
+          margin-right:auto;
+        }
+      }
+      .home-content {
+        height: 100%;
+        width: 78%;
+        float: left;
+      }
+      .home-slide {
+        height: 85%;
+        width: 100%;
+        padding-right: 2%;
+        background-color: #f4f7fc;
+        scroll-behavior: smooth;
+      }  
+      .my-aii-forum{
+        background-color: #eaeef5;
+        width: 22%;
+        height: 100%;
+        float: left;
+      }
+      .btn-joincomunity {
+        font-size:1vw !important;
+      }
+      .img_card {
+        width:100% !important;
+        height:100% !important;
+      }
+      /* end home */
+        /* guide */
+        .image-guide{
+          width: 20%;
+          height: 20%;
+          padding-left: 3%;
+          }
+        /* end guide */
+        
+      /* exchange */
+      .my-aii-exchange {
+        border-radius: 30px;
+        width: 80%;
+        font-size: 15px;
+      }
+      /* end exchange */
+      
+      /* bagian member */
+      .txt-googlesans-member{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
+      .member-info {
+        margin-top: 20px;
+      }
+      .input-member {
+        width: 48%;
+      }
+      .img-member {
+        text-align: left;
+      }
+      .date-member {
+        width: 10%;
+      }
+      .month-member {
+        width: 30%;
+        margin-left: 3%;
+        margin-right: 3%;
+      }
+      .year-member {
+        width: 20%;
+      }
+      /* end member */
+  
+      .my-aii-content {
+        height: 100%;
+        width: 85%;
+        float: right;
+      }
+  
+      .my-aii-about {
+        background-image:url(/image/asta.png);
+        background-size:80% 100%;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 80%;
+        float: right;
+      }
+      .my-aii-login {
+        width: 80%;
+      }
+      .my-aii-overflow {
+        overflow: auto;
+        overflow-x: hidden;
+      }
+      .bg-content-home {
+        background-color: #f4f7fc;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+      }
+
+      
+      /* menu top home */
+      #menu-top-nav-home-1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #menu-top-nav-home-1 li {
+        float: left;
+      }
+ 
+      #menu-top-nav-home-1 li a {
+        display: block;
+        /* color: white; */
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Sidebar menu */
+      .sidebar .nav-link a{
+        padding-left:5px;
+        font-size: 12px;
+        color: #b0b0b0;
+      }
+      .sidebar {
+        box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+        background-color: white;
+        height: 100%;
+        width: 20%;
+        float: left;
+      }
+      .sidebar .nav-link.active {
+        color: #007bff;
+        border-left: 5px solid #1990ea;
+        padding-left:10px;
+      }
+      /* end sidebar menu */
+
+      /* Carousel Home */
+      .card-carousel-home {
+        height:330px;
+      }
+      .img_carousel_home {
+        margin:0 auto;
+        width:100px;
+        height:100px;
+      }
+      /* end Carousel Home */
+
+      /* Login-home */
+      .memberLogin-title {
+        margin-bottom:2%;
+        margin-top:5%;
+      }
+      /* end login home */
+
+      /* topnav home */
+      .topnav {
+        overflow: hidden;
+      }
+      
+      .topnav a {
+        float: left;
+        display: block;
+        color: #adaeaf;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        border-bottom: 1px solid transparent;
+      }
+      
+      .topnav a:hover {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+      /* for pc */
+      #menu-top-nav-home-1 .active a {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+  
+      /* for mobile */
+      #menu-top-nav-home .active a {
+        border-bottom: 3px solid #213389;
+        color: #213389;
+      }
+      /* end topnav home */
+
+      /* all game */
+      .all_card_game {
+        width:14vw;
+        margin-bottom: 5%;
+      }
+      .menu-topnav-allgame {
+        width:100%;
+        height:20%;
+      }
+      .bg-content-all-game {
+        background-color: #f4f7fc;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+      }
+      .card-center {
+        padding-left:0;
+        padding-right:0;
+      }
+      /* end all game */
+ 
+ 
+      /* #menu-top-nav-home-1 li a.active {
+          float: right;
+      } */
+ 
+      /* .active {
+        background-color: #4CAF50;
+      } */
+      /* end menu top home */
+  }
+
+  @media(min-width:1200px) {
+    .title-menu {
+      font-size: 2.5vw;
+    }
+    body {
+        background-color: #f4f7fc;
+        overflow: hidden;
+        padding-left:0;
+        margin-right:0;
+        padding-right:0;
+    }
+    .my-aii-overflow {
+      overflow: auto;
+    }
+    .my-aii-content {
+      height:180px;
+      height: 100%;
+      width: 85%;
+      float: right;
+    }
+    .pagination-rank {
+      margin-left:38%;
+    }
+    .my-aii-about {
+      background-image:url(/image/asta.png);
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 85%;
+      float: right;
+      background-size:100% 100%;
+    }
+        /* home */
+    .menu-topnav {
+      width: 100%;
+      height: 18%;
+      background-color: #f4f7fc;
+      margin-bottom: 3%;
+    }
+    .home-slide {
+      height: 85%;
+      padding-right: 2%;
+      background-color: #f4f7fc;
+      scroll-behavior: smooth;
+    }
+    .home-content {
+      height: 100%;
+      width: 78%;
+      float: left;
+    }
+    .my-aii-forum {
+      background-color: #eaeef5;
+      width: 22%;
+      height: 100%;
+      float: left;
+    }
+    .btn-joincomunity {
+      font-size:1vw !important;
+    }
+    .img_card {
+      width:100% !important;
+      height:100% !important;
+    }
+    /* end home */
+    /* guide */
+    .image-guide{
+      width: 20%;
+      height: 20%;
+      padding-left: 3%;
+      }
+    /* end guide */
+
+    /* exchange */
+    .my-aii-exchange {
+      border-radius: 30px;
+      width: 80%;
+      margin-left: auto; 
+      margin-right:auto;
+      font-size: 15px;
+    }
+    /* end exchange */
+
+    /* bagian member */
+    .txt-googlesans-member{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+    .member-info {
+      margin-top: 20px;
+    }
+    .input-member {
+      width: 48%;
+    }
+    .date-member {
+      width: 10%;
+    }
+    .img-member {
+      text-align: none;
+    }
+    .month-member {
+      width: 30%;
+    }
+    .year-member {
+      width: 20%;
+    }
+    /* end member */
+
+    .bg-content-home {
+      background-color: #f4f7fc;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .my-aii-login {
+      width: 80%;
+    }
+
+
+    /* menu top home */
+    #menu-top-nav-home-1 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    #menu-top-nav-home-1 li {
+      float: left;
+    }
+
+    #menu-top-nav-home-1 li a {
+      display: block;
+      /* color: white; */
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Sidebar menu */
+    .sidebar .nav-link a{
+      padding-left:30px;
+      font-size: 15px;
+      color: #b0b0b0;
+    }
+    .sidebar {
+      box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+      background-color: white;
+      height: 100%;
+      width: 15%;
+      float: left;
+    }
+    .sidebar .nav-link.active {
+      color: #007bff;
+      border-left: 5px solid #1990ea;
+      padding-left:10px;
+    }
+    /* end sidebar menu */
+
+    /* Carousel Home */
+    .card-carousel-home {
+      height:350px;
+    }
+    .img_carousel_home {
+      margin:0 auto;
+      width:180px;
+      height:180px;
+    }
+    /* end Carousel Home */
+
+    /* Login-home */
+    .memberLogin-title {
+      margin-bottom:10%;
+      margin-top:5%;
+    }
+    .img-login {
+      width:10vw;
+      height:19vh;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    /* end login home */
+
+    /* topnav home */
+    .topnav {
+      overflow: hidden;
+    }
+      
+    .topnav a {
+      float: left;
+      display: block;
+      color: #adaeaf;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      border-bottom: 1px solid transparent;
+    }
+      
+    .topnav a:hover {
+      border-bottom: 3px solid #213389;
+      color: #213389;
+    }
+    /* for pc */
+    #menu-top-nav-home-1 .active a {
+      border-bottom: 3px solid #213389;
+      color: #213389;
+    }
+  
+    /* for mobile */
+    #menu-top-nav-home .active a {
+      border-bottom: 3px solid #213389;
+      color: #213389;
+    }
+    /* end topnav home */
+
+
+    /* all game */
+    .all_card_game {
+      width:14vw;
+      margin-bottom: 9%;
+    }
+    .menu-topnav-allgame {
+      width:100%;
+      height:50px;
+    }
+    .bg-content-all-game {
+      background-color: #f4f7fc;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+    .card-center {
+      padding-left:0;
+      padding-right:0;
+    }
+    /* end all game */
+
+
+    /* #menu-top-nav-home-1 li a.active {
+        float: right;
+    } */
+
+    /* .active {
+      background-color: #4CAF50;
+    } */
+    /* end menu top home */
+}
+
+  .date {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 10px;
+    text-align: center;
+  }
+  .date-home {
+    transform: translate(-15%,-50%);
+  }
+  .btn-outline-secondary {
+    width: 60%;
+  }
+  
+  
+  
+  .my-aii-login {
+      background-color: #282828;
+      height: 30%;
+      width: 100%;
+      text-align: center;
+  }
+  .my-aii-logout {
+      background-color: #282828;
+      height: 30%;
+      width: 100%;
+  
+  }
+  .white {
+      color: #fff;
+  }
+  
+  .btn-outline-light {
+      width: 75%;
+      border-radius: 30px;
+  }
+  
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: 100%;
+        padding: 15px;
+      }
+      .row.content {height:100%;} 
+    }
+    .btn-contact {
+      width: 30%;
+      height: 25%;
+    }
+    body {
+      font-size: .875rem;
+    }
+    
+    /* .feather {
+      width: 16px;
+      height: 16px;
+      vertical-align: text-bottom;
+    } */
+    
+    /*
+     * Sidebar
+     */
+    
+    /* .sidebar {
+      box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+      background-color: white;
+      height: 100%;
+      width: 15%;
+      float: left;
+    }
+   
+    .sidebar .nav-link a{
+      padding-left:30px;
+      color: #b0b0b0;
+    } */
+    
+    /* .sidebar .nav-link .feather {
+      margin-right: 4px;
+      color: #999;
+    } */
+    /* .menu-footer-sidebar-menu {
+      padding-left:-15%;
+    } */
+    #menu-footer-sidebar-menu-1, #menu-middle-sidebar-menu-1, #menu-top-sidebar-menu-1, #menu-member-login-menu-1, #menu-footer-sidebar-menu, #menu-middle-sidebar-menu, #menu-top-sidebar-menu, #menu-member-login-menu {
+      padding-left:0;
+    }
+    /* .sidebar .nav-link.active {
+      color: #007bff;
+      border-left: 5px solid #1990ea;
+      padding-left:10px;
+    }
+    .sidebar .active a {
+      color:#007bff;
+    } */
+    
+    /* .sidebar .nav-link:hover .feather,
+    .sidebar .nav-link.active .feather {
+      color: inherit;
+    } */
+    
+    .sidebar-heading {
+      font-size: .75rem;
+      text-transform: uppercase;
+    }
+     /* end sidebar */
+    .btn-primary {
+      background-color: #1990ea;
+    }
+  
+    .pagination {
+      color: #1990ea;
+    }
+    .border-blue {
+      border-color: #1990ea;
+      color: #1990ea;
+    }
+    .border-primary {
+      border-color: #1990ea;
+    }
+  
+    .txt-googlesans-bold {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+  
+    .txt-googlesans-reguler {
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+    .txt-googlesans-medium {
+      font-family: 'Open Sans', sans-serif;
+      font-weight:600;
+    }
+  
+    .btn-outline-light {
+      border-color: #797979;
+      color: #939393;
+    }
+  
+    .btn-outline-primary{
+      border-color: #bcd9f3;
+      color: #1990ea;
+      width: 80%;
+    }
+    .gray-txt {
+      color: #7e7f80;
+    }
+  
+    .gray-border-bottom {
+      border-bottom: 1px solid #dce2ed;
+    }
+  
+    .gray-border {
+      border-color: #dbe2ed;
+    }
+  
+    .blueblack-txt {
+      color: #3b4892;
+    }
+  
+    .blue-txt {
+      color: #1990ea;
+    }
+  
+    .border-none {
+      border: none;
+    }
+  
+    .margin-left {
+      margin-left: 10px;
+    }
+    
+  
+    .bluedark-txt {
+      color: #213389;
+    }
+  
+    .content-article {
+      height: 100%;
+    }
+  
+    .content-article-word {
+      margin-left: 30px; 
+      margin-right: 10px;
+    }
+  
+    .my-aii-copyright {
+      color: #b3b3b3;
+    }
+  
+    input[type=radio] {
+      color: #4778fb;
+    }
+  
+    .circle-no {
+      background: #213389;
+      color: white;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+    }
+  
+  /*alert javacsript style login */
+  #dialogoverlay{
+      display: none;
+      opacity: .8;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      background: #FFF;
+      width: 100%;
+      z-index: 10;
+  }
+  #dialogbox{
+      display: none;
+      position: fixed;
+      background: #000;
+      border-radius:7px; 
+      width:550px;
+      z-index: 10;
+  }
+  #dialogbox > div{ background:#FFF; margin:8px; }
+  #dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+  #dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
+  #dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
+  /* end alert */
+  
+  /* scrollbar menu */
+  #scrollbar-menu::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      background-color: white;
+  }
+  #scrollbar-menu::-webkit-scrollbar
+  {
+    width: 2%;
+      background-color: #F5F5F5;
+  }
+  
+  #scrollbar-menu::-webkit-scrollbar-thumb
+  {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #f4f7fc;
+  }
+  
+  /* home */
+  #scrollbar-menuhome::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      background-color: white;
+  }
+  #scrollbar-menuhome::-webkit-scrollbar
+  {
+    width: 1%;
+      background-color: #F5F5F5;
+  }
+  
+  #scrollbar-menuhome::-webkit-scrollbar-thumb
+  {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #f4f7fc;
+  }
+  /* end home */
+  /* end scrollbar menu */
+  
+  .container-fluid {
+    margin-right:0px; 
+    padding-right:0px;
+  }
+  
+  
+  
+   
+  /* radio button for member */
+  .radio {
+   display: block;
+   position: relative;
+   padding-left: 30px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none
+  }
+  
+  .radio input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkround {
+   position: absolute;
+   top: 3px;
+   left: 0;
+   height: 23px;
+   width: 23px;
+   background-color: #fff ;
+   border-color:#1990ea;
+   border-style:solid;
+   border-width:4px;
+   border-radius: 50%;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .radio input:checked ~ .checkround {
+   background-color: #fff;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkround:after {
+   content: "";
+   position: absolute;
+   display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .radio input:checked ~ .checkround:after {
+   display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .radio .checkround:after {
+    left: 4px;
+    top: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background:#1990ea;
+  }
+  
+  
+  /* dropdown di member */
+  .select-dob {
+    height: 60px;
+  }
+  .selectmember{
+    /* width: 100%; */
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background:white;
+    position: relative;
+    height: 80%;
+    /* padding: 2px 0; */
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  .selectmember:after{
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #1990ea;
+    position: absolute;
+    top: 45%;
+    right: 5px;
+    content: "";
+    z-index: 98;
+    pointer-events: none;
+  
+   }
+  .selectmember select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    float: right;
+    margin: 5px 0px;
+    /* padding: 0px 24px; */
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid transparent;
+    -ms-word-break: normal;
+    word-break: normal;
+  }
+  /* end dropdown di member */
+  
+  /* member upload */
+  .fileContainer {
+    overflow: hidden;
+    position: relative;
+    /* styling button photo member */
+    color: #999999;
+    border: 2px solid #dce2ed;
+    background-color: #ffffff;
+    /* end */
+  }
+  
+  .fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+  }
+  /* end member upload */
+   
+  .android{
+    float: left;
+    font-size: 13px;
+  }
+  .ios {
+    float: right;
+    font-size: 13px;
+  }
+  .dowload {
+    height: 100%;
+  }
+  .ios1 {
+    font-size: 20px;
+  }
+  .android1{
+    font-size: 20px;
+  }
+
+
+  
+  
+  
+  
