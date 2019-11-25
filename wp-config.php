@@ -23,13 +23,13 @@
 define( 'DB_NAME', 'asta_web_db' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'asta_admin' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'aa123123' );
+define( 'DB_PASSWORD', 'Parfum88' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '192.168.1.7:3308' );
+define( 'DB_HOST', 'astadb.cvjib6bvjd9o.ap-southeast-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

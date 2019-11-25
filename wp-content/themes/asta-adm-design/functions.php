@@ -63,7 +63,7 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 // second database 
 function seconddb() {
     global $seconddb;
-    $seconddb = new wpdb('root', 'aa123123', 'asta_db', '192.168.1.7:3308');
+    $seconddb = new wpdb('asta_admin', 'Parfum88', 'asta_db', 'astadb.cvjib6bvjd9o.ap-southeast-1.rds.amazonaws.com');
 }
 add_action('init', 'seconddb');
 
